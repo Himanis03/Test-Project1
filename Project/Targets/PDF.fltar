@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="User Guide"
-  Type="WebHelp2"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "

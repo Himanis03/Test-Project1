@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="MadCap HTML5 Target"
@@ -10,7 +10,8 @@
   ConditionTagExpression="include[Default.ScreenOnly] exclude[Default.PrintOnly] "
   ShowMadCapBacklink="true"
   MasterToc="/Project/TOCs/Online.fltoc"
-  ResolveCssVariables="true">
+  ResolveCssVariables="true"
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
