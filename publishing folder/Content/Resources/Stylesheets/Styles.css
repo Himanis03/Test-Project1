@@ -109,9 +109,14 @@ span.BoxedText
 		mc-auto-number-format: 'Figure A-{n+}';
 	}
 
-	p.secnumber
+	p.second
 	{
-		mc-auto-number-format: 'SH: Figure {secnum}-{Sn+}';
+		mc-auto-number-format: 'Figure A-{n}-{n+}';
+	}
+
+	p.third
+	{
+		mc-auto-number-format: 'Figure A-{n}-{n}-{n+}';
 	}
 }
 
