@@ -1,0 +1,127 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+@font-face 
+{
+	font-family: 'font-name';
+	src: url(../Font/CommitMono-400-Italic.otf);
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: 'CommitMono';
+	src: url(../Font/CommitMono-400-Regular.otf);
+}
+
+@font-face 
+{
+	font-family: 'CommitMono;
+    src: url(../Font/CommitMono-700-Italic.otf);
+
+}
+
+@font-face 
+{
+    font-family: ' CommitMono ';
+    src: url(../Font/CommitMono-700-Regular.otf);
+	font-weight: 700;
+    font-style: normal;
+
+}
+
+span.BoxedText
+{
+    border: 0.3pt solid #212121;
+	border-radius: 0.4mm;
+	font-size: 8pt;
+	font-family: ' CommitMono ';
+	display: inline-block;
+	padding: 4px 10px;
+	line-height: 1.2;
+}
+
+
+body
+{
+	color: var(--Dark);
+	font-family: var(--FontFamily);
+}
+
+
+.body-container
+{
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+/* Backmatter */
+
+div.GlossaryPageDefinition
+{
+	font-size: 10pt;
+}
+
+div.GlossaryPageHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: var(--Medium);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-image: url(';
+}
+
+span.BoxedText
+{
+	
+}
+
+@media print
+{
+	span.BoxedText
+	{
+		border: solid 2px #000000;
+		font-family: 'Open Sans';
+	}
+
+	MadCap|xref.test
+	{
+		
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{paratext}';
+	}
+
+	p.figure
+	{
+		mc-auto-number-format: 'Figure A-{n+}';
+	}
+
+	p.secnumber
+	{
+		mc-auto-number-format: 'SH: Figure {secnum}-{Sn+}';
+	}
+}
+
+MadCap|xref
+{
+	mc-format: 'for more information see {h1} on {chapnum}-{page}';
+}
+
+MadCap|xref.test
+{
+	mc-format: 'for more information see {h1} on {chapnum}-{page}';
+}
+
