@@ -11,7 +11,8 @@
   MasterToc="/Project/TOCs/PDF.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
   LmsStandard="None"
-  LmsCourseTrackingType="CourseCompletion">
+  LmsCourseTrackingType="CourseCompletion"
+  MasterPageLayout="/Content/Resources/PageLayouts/Chapters.flpgl">
   <PrintedOutput
     CollapseMargins="false"
     ExpandingTextConversion="expand"

@@ -2,13 +2,14 @@
 <CatapultDestination
   Version="1"
   Comment="This is my publish destination"
-  Host="ftp.myftpserver.com"
+  Host=""
   User="MyAccountId"
   Password=""
-  Directory="C:\Client Project\Test Project1\publishing folder"
+  Directory="C:\Publish-test"
   Port=""
   ViewUrl="http://www.madcapsoftware.com/"
-  Type="scm"
+  Type="file"
   ProviderType="Git"
   Database="file:///C:/Client Project/Test Project1/.git/"
-  DatabaseRoot="file:///C:/Client Project/Test Project1/publishing folder"></CatapultDestination>
+  DatabaseRoot="file:///C:/Client Project/Test Project1/publishing folder"
+  RemoveStale="false"></CatapultDestination>

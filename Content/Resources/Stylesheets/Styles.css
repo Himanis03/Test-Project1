@@ -1,53 +1,20 @@
 /*<meta />*/
 
-@font-face 
-{
-	font-family: 'font-name';
-	src: url(../Font/CommitMono-400-Italic.otf);
-	font-weight: 400;
-	font-style: italic;
-}
-
-@font-face 
-{
-	font-family: 'CommitMono';
-	src: url(../Font/CommitMono-400-Regular.otf);
-}
-
-@font-face 
-{
-	font-family: 'CommitMono;
-    src: url(../Font/CommitMono-700-Italic.otf);
-
-}
-
-@font-face 
-{
-    font-family: ' CommitMono ';
-    src: url(../Font/CommitMono-700-Regular.otf);
-	font-weight: 700;
-    font-style: normal;
-
-}
-
 span.BoxedText
 {
-    border: 0.3pt solid #212121;
+	border: 0.3pt solid #212121;
 	border-radius: 0.4mm;
 	font-size: 8pt;
-	font-family: ' CommitMono ';
 	display: inline-block;
 	padding: 4px 10px;
 	line-height: 1.2;
 }
-
 
 body
 {
 	color: var(--Dark);
 	font-family: var(--FontFamily);
 }
-
 
 .body-container
 {
@@ -77,7 +44,7 @@ div.GlossaryPageHeading
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-right: 10px;
-	background-image: url(';
+	background-image: url;
 }
 
 span.BoxedText
@@ -90,7 +57,9 @@ span.BoxedText
 	span.BoxedText
 	{
 		border: solid 2px #000000;
-		font-family: 'Open Sans';
+		font-family: CommitMono;
+		margin-right: -0.3em;
+		padding-right: 50px;
 	}
 
 	MadCap|xref.test
@@ -111,6 +80,13 @@ span.BoxedText
 	p.secnumber
 	{
 		mc-auto-number-format: 'SH: Figure {secnum}-{Sn+}';
+	}
+
+	p
+	{
+		font-weight: bold;
+		font-family: CommitMono;
+		margin-right: 1.12em;
 	}
 }
 
